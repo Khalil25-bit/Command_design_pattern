@@ -9,12 +9,12 @@ public class StopWatch {
     private long time;
 
     public void countDownThirtySec() {
-      time = 299;
+      time = 29;
       startCount(time);
     }
 
     public void countDownOneMin() {
-      time = 299;
+      time = 59;
       startCount(time); 
     }
 
@@ -32,7 +32,6 @@ public class StopWatch {
                 System.out.flush();
                 time--;
             }
-            System.out.println(String.format("%02d:%02d", (time / 60) % 60, (time % 60)));
           }
           catch(Exception e) {
             System.out.println(e);

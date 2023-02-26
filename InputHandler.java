@@ -6,7 +6,7 @@
 import java.util.HashMap;
 
 public class InputHandler {
-	HashMap<String, Command> commands
+	HashMap<String, Command> commands;
 	/**
 	 * @param watch stopwatch object to use timers
 	 */
